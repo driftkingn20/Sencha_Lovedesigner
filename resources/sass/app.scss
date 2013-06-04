@@ -1,0 +1,38 @@
+$base-color: #333;
+@import 'sencha-touch/base';
+@import 'sencha-touch/base/all';
+@import 'sencha-touch/windows';
+@import 'sencha-touch/windows/all';
+@include icon('home', 'G');
+@include icon('settings', 'N');
+@include icon('team', 'k');
+
+img { width:320px; height:100%; }
+iframe{ width:320px; height:100%; }
+a img{
+	pointer-events: none;
+	cursor: default;
+}
+.feature{
+	width:100%;
+}
+
+.home {
+    position:relative;
+    color:black;
+    display:-webkit-box;
+    position:relative;
+	font-size:14px;
+}
+.homes {
+	font-size:15px;
+	padding-bottom:5px;
+	border-bottom:solid 1px #999;
+}
+.title_font{
+	width:87%; 
+	float:right;
+}
+.layer{
+	border-bottom:solid 1px;
+}
